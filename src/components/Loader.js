@@ -10,7 +10,7 @@ const Loader = ( {setLoading} ) => {
     });
 
     return(
-        <div>
+        <div className="loader-wrapper">
             <p>Loading...</p>
         </div>
     );
